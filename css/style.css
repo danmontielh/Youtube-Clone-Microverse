@@ -70,3 +70,48 @@ div.videooptions .views p {
 .upvote {
     justify-self: end;
 }
+
+div.videooptions .upvote i {
+    margin-right: 10px;
+    color: gray;
+}
+
+
+/*START SIDEBAR*/
+
+.sidebar {
+    grid-column: 2 / -1;
+}
+
+
+div.sidebar .video-rest {
+    display: grid;
+    grid-template-columns: 170px auto;
+    margin-bottom: 7px; 
+}
+
+div.sidebar .video-rest .video-titles  {
+   margin-left: 5px;
+}
+
+div.sidebar .video-rest .video-titles h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+div.content iframe {
+    width: 100%;
+} 
+
+
+
+
+
+
+
+/*END SIDEBAR */
