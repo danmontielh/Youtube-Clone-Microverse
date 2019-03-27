@@ -43,3 +43,30 @@ div.header .wrapper .search button i {
     grid-column: 1 / -1;
     align-items: start;
 }
+
+.content {
+    grid-column: 1 / 2;
+    padding-left: 60px
+}
+
+div.content h2  {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+div.videooptions{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+div.videooptions .views p {
+    font-size: 20px;
+    font-weight: 200;
+    color: gray;
+}
+
+.upvote {
+    justify-self: end;
+}
