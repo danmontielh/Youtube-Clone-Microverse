@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30px auto 200px;
+    padding: 30px;
+}
+
+
+div.header .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+div.header .wrapper .logo i {
+    font-size: 25px;
+    padding-right: 25px;
+}
