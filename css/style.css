@@ -16,3 +16,30 @@ div.header .wrapper .logo i {
     font-size: 25px;
     padding-right: 25px;
 }
+
+div.header .wrapper .search input {
+    width: 600px;
+    height: 25px;
+    color: gray;
+}
+
+div.header .wrapper .search button i {
+    font-size: 20px;
+    color: gray;
+    width: 35px;
+    height: 25px;
+}
+
+.search {
+    justify-self: center;
+}
+
+.icons {
+    justify-self: end;
+
+}
+
+.header {
+    grid-column: 1 / -1;
+    align-items: start;
+}
