@@ -36,7 +36,18 @@ div.header .wrapper .search button i {
 
 .icons {
     justify-self: end;
+}
 
+div.icons i {
+    font-size: 23px;
+}
+
+div.icons i, div.icons img {
+    padding-right: 17px;
+}
+
+div.icons img {
+    margin-top: 3px;
 }
 
 .header {
