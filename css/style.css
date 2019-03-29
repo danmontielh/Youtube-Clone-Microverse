@@ -7,23 +7,23 @@
 }
 
 
-div.header .wrapper {
+.header .wrapper {
     display: grid;
     grid-template-columns: repeat(3, auto);
 }
 
-div.header .wrapper .logo i {
+.header .wrapper .logo i {
     font-size: 25px;
     padding-right: 25px;
 }
 
-div.header .wrapper .search input {
+.header .wrapper .search input {
     width: 600px;
     height: 25px;
     color: gray;
 }
 
-div.header .wrapper .search button i {
+.header .wrapper .search button i {
     font-size: 20px;
     color: gray;
     width: 35px;
@@ -38,15 +38,15 @@ div.header .wrapper .search button i {
     justify-self: end;
 }
 
-div.icons i {
+.icons i {
     font-size: 23px;
 }
 
-div.icons i, div.icons img {
+.icons i, .icons img {
     padding-right: 17px;
 }
 
-div.icons img {
+.icons img {
     margin-top: 3px;
 }
 
@@ -60,19 +60,19 @@ div.icons img {
     padding-left: 60px
 }
 
-div.content h2  {
+.content h2  {
     font-size: 22px;
     font-weight: 500;
 }
 
 
-div.videooptions{
+.videooptions{
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
 }
 
-div.videooptions .views p {
+.videooptions .views p {
     font-size: 20px;
     font-weight: 200;
     color: gray;
@@ -82,7 +82,7 @@ div.videooptions .views p {
     justify-self: end;
 }
 
-div.videooptions .upvote i {
+.videooptions .upvote i {
     margin-right: 10px;
     color: gray;
 }
@@ -95,17 +95,17 @@ div.videooptions .upvote i {
 }
 
 
-div.sidebar .video-rest {
+.sidebar .video-rest {
     display: grid;
     grid-template-columns: 170px auto;
     margin-bottom: 7px; 
 }
 
-div.sidebar .video-rest .video-titles  {
+.sidebar .video-rest .video-titles  {
    margin-left: 5px;
 }
 
-div.sidebar .video-rest .video-titles h4 {
+.sidebar .video-rest .video-titles h4 {
     margin: 0;
     margin-bottom: 5px;
 }
@@ -113,16 +113,9 @@ div.sidebar .video-rest .video-titles h4 {
 
 
 
-
-
-div.content iframe {
+.content iframe {
     width: 100%;
 } 
-
-
-
-
-
 
 
 /*END SIDEBAR */
@@ -144,12 +137,12 @@ div.content iframe {
     
 }
 
-div.userinfo .user-profile h2 {
+.userinfo .user-profile h2 {
     font-size: 17px;
     font-weight: bold;
 }
 
-div.userinfo .user-profile h6 {
+.userinfo .user-profile h6 {
     margin: 0;
     color: gray;
 }
@@ -158,7 +151,7 @@ div.userinfo .user-profile h6 {
   justify-self: end;  
 }
 
-div.video-description {
+.video-description {
     margin-left: 60px;
     margin-top: 20px;
 }
